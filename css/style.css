@@ -1,0 +1,44 @@
+.header {
+  width: 1440px;
+  height: 768px;
+  background-image: url("../img/bg.jpg");
+  text-align: center;
+  padding-top: 41px;
+}
+
+.header__logo-light {
+  background-image: url(../img/company-logo-white.svg);
+  margin: 0 auto;
+  background-size: cover;
+  width: 102px;
+  height: 23px;
+}
+
+.header__h1 {
+  margin: auto;
+}
+
+.text-h1 {
+  padding-top: 307px;
+  color: #FFF;
+  font-family: BebasNeueBold;
+  font-size: 60px;
+  letter-spacing: 4.6px;
+  margin-bottom: -3px;
+}
+
+.header__p {
+  color: #FFF;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 220px;
+}
+
+.header__scroll {
+  color: #FFF;
+  font-family: OpenSans;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+}

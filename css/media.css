@@ -1,15 +1,41 @@
+@media  screen and (max-width:895px) {
+  .about__flex {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .about__left-col {
+    height: 224px;
+  }
+}
+
 @media  screen and (max-width: 615px) {
   .text-h1 {
     padding-top: 257px;
   }
 }
 @media  screen and (max-width: 550px) {
+  .top-menu__logo {
+    margin-top: 30px;
+  }
+
   .top-menu__flex {
     flex-direction: column;
     justify-content: center;
-    padding: 20px 0;
   }
 }
+
+@media screen and (max-width:475px) {
+  .about__pic-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-p {
+    margin-bottom: 0;
+  }
+}
+
 @media  screen and (max-width: 390px) {
   .top-menu__menu {
     flex-direction: column;

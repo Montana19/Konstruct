@@ -1,0 +1,19 @@
+@media  screen and (max-width: 615px) {
+  .text-h1 {
+    padding-top: 257px;
+  }
+}
+@media  screen and (max-width: 550px) {
+  .top-menu__flex {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
+@media  screen and (max-width: 390px) {
+  .top-menu__menu {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+

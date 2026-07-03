@@ -1,21 +1,12 @@
-.header {
-  width: 1440px;
-  height: 768px;
-  background-image: url("../img/bg.jpg");
-  text-align: center;
-  padding-top: 41px;
+/* Глобальные стили */
+
+:root {
+  --accent: #16ACE8;
+  --grey: #48555B;
 }
 
-.header__logo-light {
-  background-image: url(../img/company-logo-white.svg);
-  margin: 0 auto;
-  background-size: cover;
-  width: 102px;
-  height: 23px;
-}
-
-.header__h1 {
-  margin: auto;
+html {
+  user-select: none;
 }
 
 .text-h1 {
@@ -27,12 +18,48 @@
   margin-bottom: -3px;
 }
 
-.header__p {
+.text-p {
   color: #FFF;
   font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 220px;
+}
+
+.container {
+  max-width: 990px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo-light {
+  background-image: url(../img/company-logo-white.svg);
+  background-size: cover;
+  width: 102px;
+  height: 23px;
+}
+
+.logo-black {
+  background-image: url(../img/company-logo-black.svg);
+  background-size: cover;
+  width: 102px;
+  height: 23px;
+}
+
+/* Шапка сайта-Херосекшн */
+
+.header {
+  max-width: 1440px;
+  height: 768px;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 41px;
+}
+
+.header__logo {
+  margin: 0 auto;
 }
 
 .header__scroll {
@@ -42,3 +69,38 @@
   text-transform: uppercase;
   letter-spacing: 3.7px;
 }
+
+/* Верхнее меню */
+
+.top-menu__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu__menu {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.top-menu__menu-item {
+  color: var(--grey);
+  text-align: center;
+  font-family: OpenSans;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.091px;
+
+  & a{
+    text-decoration: none;
+    color: inherit;
+    transition: ease-in-out 0.3s;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}
+

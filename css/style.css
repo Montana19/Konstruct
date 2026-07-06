@@ -3,10 +3,12 @@
 :root {
   --accent: #16ACE8;
   --grey: #48555B;
+  --white: #fff;
 }
 
 html {
   user-select: none;
+  background-color: var(--white);
 }
 
 .text-h1 {

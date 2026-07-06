@@ -23,7 +23,6 @@ html {
   font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 220px;
 }
 
 .container {
@@ -68,6 +67,10 @@ html {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 3.7px;
+}
+
+.header__p {
+  margin-bottom: 200px;
 }
 
 /* Верхнее меню */

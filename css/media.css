@@ -1,3 +1,11 @@
+@media screen and (max-width:915px) {
+  .services__flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
 @media  screen and (max-width:895px) {
   .about__flex {
     justify-content: center;
@@ -5,7 +13,29 @@
   }
 }
 
+@media screen and (max-width:825px) {
+  .services__top-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services__title::after {
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .services__flex {
+    margin-top: 20px;
+  }
+
+  .services {
+    margin: 50px 0 15px 0;
+  }
+}
+
 @media  screen and (max-width: 615px) {
+
   .text-h1 {
     padding-top: 257px;
   }

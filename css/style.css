@@ -415,14 +415,14 @@ a {
   justify-content:space-between;
   padding-top: 42px;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 .footer__item {
-  width: 300px;
+  max-width: 300px;
   color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0 15px;
 }
 
 .footer__logo {

@@ -82,9 +82,14 @@ a {
 /* Верхнее меню */
 
 .top-menu {
-  color: #FFF;
   border: 1px solid #E6E6E6;
+  top: 0;
+  position: sticky;
+  background: #ffffffcc;
+  backdrop-filter: blur(16px);
+  z-index: 1;
 }
+
 
 .top-menu__flex {
   display: flex;
@@ -267,7 +272,7 @@ a {
   margin-top: 76px;
 }
 .services__item {
-  width: 295px;
+  max-width: 295px;
   height: 330px;
   border: 1px solid #E6E6E6;
   background-color: var(--white);
@@ -364,7 +369,7 @@ a {
   gap: 15px 0;
   align-items: center;
   justify-content: center;
-  flex-wrap: row wrap;
+  flex-wrap: wrap;
   background-color: #171819;
 }
 
@@ -416,13 +421,14 @@ a {
   padding-top: 42px;
   display: flex;
   flex-flow: row wrap;
+  gap: 15px 0;
 }
 .footer__item {
   max-width: 300px;
   color: var(--white);
   display: flex;
   flex-direction: column;
-  gap: 0 15px;
+  gap: 15px;
 }
 
 .footer__logo {

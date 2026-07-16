@@ -319,8 +319,8 @@ a {
 
 .get-in-touch {
   max-width: 1440px;
-  height: 499px;
-  background-image: url(../img/git-bg.jpg);
+  height: 498px;
+  background-image: url(../img/git-bg.png);
   text-align: center;
   padding: 120px 0;
   margin: 0 auto;
@@ -360,12 +360,12 @@ a {
 .newsletter__flex {
   display: flex;
   flex-wrap: wrap;
+  padding: 30px 0;
+  gap: 15px 0;
   align-items: center;
   justify-content: center;
+  flex-wrap: row wrap;
   background-color: #171819;
-  max-width: 1440px;
-  height: 100px;
-  margin: 0 auto;
 }
 
 .newsletter__title {
@@ -407,17 +407,18 @@ a {
 /* Footer */
 
 .footer {
-  height: 240px;
+  min-height: 240px;
   background: #141A20;;
 }
 
 .footer__flex {
+  justify-content:space-between;
   padding-top: 42px;
   display: flex;
-  gap: 15px;
+  flex-wrap: wrap;
 }
 .footer__item {
-  max-width: 300px;
+  width: 300px;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -490,6 +491,11 @@ a {
   & a {
     text-decoration: none;
     color: inherit;
+    transition: ease-in-out 0.3s;
+
+    &:hover {
+      color: var(--accent);
+    }
   }
 }
 
@@ -511,18 +517,33 @@ a {
   mask: url(../img/fb.svg);
   width: 12px;
   height: 12px;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    background-color: var(--accent);
+  }
 }
 .footer__twi {
   height: 12px;
   width: 12px;
   background-color: var(--white);
   mask: url(../img/twi.svg);
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    background-color: var(--accent);
+  }
 }
 .footer__goo {
   width: 12px;
   height: 12px;
   background-color: var(--white);
   mask: url(../img/goo.svg);
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    background-color: var(--accent);
+  }
 }
 
 

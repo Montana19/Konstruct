@@ -506,6 +506,16 @@ a {
   line-height: 19px; /* 172.727% */
   letter-spacing: 0.85px;
   width: 250px;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+    transition: ease-in-out 0.3s;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
 }
 
 .footer__socials {

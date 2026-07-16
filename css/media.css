@@ -34,6 +34,20 @@
   }
 }
 
+@media  screen and (max-width: 695px) {
+  .newsletter__title {
+    margin-right: 15px;
+  }
+}
+
+@media  screen and (max-width: 625px) {
+  .newsletter__flex {
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
 @media  screen and (max-width: 615px) {
 
   .text-h1 {
